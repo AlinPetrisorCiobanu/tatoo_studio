@@ -1,0 +1,59 @@
+/* Root */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #181818;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+Body{
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #181818;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Main */
+.custom-input {
+  position: relative;
+  margin: 10px 0;
+}
+
+.custom-input input {
+  width: 100%;
+  padding: 10px;
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px;
+  border: 0px;
+  border-bottom: 2px dotted #007bff77;
+  border-radius:10px 10px 0px 0px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.212);
+}
+
+.custom-input label {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #f7f7f7;
+}
+body .button_login_reg{
+    min-width: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.212);
+  color: white;
+}
