@@ -94,7 +94,7 @@ function Principal() {
         <>
           <h1 className='mb-5'>Bienvenido {user.name ? (user.name) : ("Usuario")} </h1>
           <Col xs={11} sm={11} md={11} lg={11} xl={11} xxl={11}>
-                      <Row className='justify-content-around align-items-center mt-4'>
+                      <Row className='justify-content-around align-items-center mt-2'>
                         <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4} className='d-flex justify-content-center align-items-center text-center' >
                           <Button className='button_login_reg' onClick={() => { logOut()}}>Salir</Button>
                         </Col>
@@ -104,7 +104,7 @@ function Principal() {
       ) : (
         <>
           <Row className='w-100'>
-            <Col xs={11} sm={11} md={11} lg={11} xl={11} xxl={11} className='text-center p-4 mt-5'>
+            <Col xs={11} sm={11} md={11} lg={11} xl={11} xxl={11} className='text-center p-2 mt-2'>
               <h1>Tattoo Studio</h1>
             </Col>
           </Row>
