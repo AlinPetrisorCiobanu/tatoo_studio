@@ -7,7 +7,10 @@ const Login = () => {
     return(
         <div className="Container">
             <Banner page="Inicio de Sesion"/>
+            <div className="login_form">
+                
             <h1>Login</h1>
+            </div>
             <Footer />
         </div>
     )
