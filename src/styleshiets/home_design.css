@@ -1,15 +1,3 @@
-.Container_home{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    
-}
-
 .Content_home{
     height: 78vh;
     width: 100%;
@@ -18,10 +6,4 @@
     text-align: center;
     justify-content: center;
     align-items: center ;
-}
-
-.Footer_home{
-    height: 10vh;
-    width: 100%;
-    background-color: rgba(240, 248, 255, 0.327);
 }
