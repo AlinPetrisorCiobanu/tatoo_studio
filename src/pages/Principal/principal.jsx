@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { useState } from 'react';
-import { login, register } from '../../sevices/apiCalls/apiCalls';
+import { login, register } from '../../services/apiCalls';
 
 function Principal() {
 

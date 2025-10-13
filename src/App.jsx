@@ -1,10 +1,10 @@
-import Principal from "./pages/Principal/principal"
+import AppRoutes from "./routes/AppRoutes.jsx"
 
 
-function App() {
+const App=()=> {
   return (
     <>
-      <Principal />
+      <AppRoutes />
     </>    
   )
 }
