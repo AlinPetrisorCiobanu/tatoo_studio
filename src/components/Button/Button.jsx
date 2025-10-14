@@ -1,9 +1,9 @@
-
+import '../../styleshiets/button.css'
 const Button_Component = (value) => {
 
     return (
         <div>
-            <button>{value.value.toString()}</button>
+            <button className='button_design'>{value.value.toString()}</button>
         </div>
     )
 }

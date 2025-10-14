@@ -16,20 +16,13 @@ const Register = () => {
 
     const form_constructor = [
         {
-            id: "Name",
-            name: "Name",
+            id: "name",
+            name: "name",
             type: "text",
-            label: "Nombre : ",
+            label: "Nombre Completo: ",
             onchange: "inputHandler",
             placeholder: "Introduce tu Nombre",
-        }, {
-            id: "last_name",
-            name: "last_name",
-            type: "text",
-            label: "Apellidos : ",
-            onchange: "",
-            placeholder: "Introduce tus Apellidos",
-        }, {
+        },{
             id: "nickname",
             name: "nickname",
             type: "text",
@@ -37,8 +30,15 @@ const Register = () => {
             onchange: "",
             placeholder: "Introduce tu Usuario",
         }, {
-            id: "Password",
-            name: "Password",
+            id: "email",
+            name: "email",
+            type: "text",
+            label: "Email : ",
+            onchange: "",
+            placeholder: "Introduce tu Correo",
+        }, {
+            id: "password",
+            name: "password",
             type: "password",
             label: "Contraseña : ",
             onchange: "",
@@ -61,8 +61,8 @@ const handleSubmit = (e) => {
           .then((res) => {
             if (res.succes) {
               let dataToSend = {
-                nickname: data.nickname,
-                password: data.password
+                nickname: register_data.nickname,
+                password: register_data.password
               }
               login(dataToSend)
                 .then((res) => {
@@ -79,7 +79,6 @@ const handleSubmit = (e) => {
       } else {
         console.log("campos vacios")
       }
-  console.log("Data send:", register_data);
 };
 
 

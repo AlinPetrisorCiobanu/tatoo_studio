@@ -1,11 +1,12 @@
-
+import '../../styleshiets/input_design.css'
 
 
 const Input_Component = ({ data, onChange }) => {
   return (
-    <div>
-      <label>{data.label}</label>
+    <div className='input_contianer'>
+      <label className='label_design'>{data.label}</label>
       <input
+        className='input_design'
         type={data.type}
         name={data.name}
         value={data.value}

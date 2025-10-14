@@ -1,0 +1,10 @@
+
+.button_design{
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.366);
+    border: 2px solid rgba(255, 255, 255, 0.599);
+    border-radius: 10px;
+}
+.button_design:hover{
+    cursor: pointer;
+}

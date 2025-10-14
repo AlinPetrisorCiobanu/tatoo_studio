@@ -16,6 +16,7 @@ export const login = (data) => {
 
 //users register
 export const register = (data) => {
+  console.log(data)
   return axios
     .post(`${URL_USER}register`, data)
     .then((res) => {

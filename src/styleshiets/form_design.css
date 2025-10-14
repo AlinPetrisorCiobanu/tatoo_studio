@@ -1,0 +1,12 @@
+.form_design{
+    width: 50%;
+    min-height: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgba(39, 37, 37, 0.696);
+}
